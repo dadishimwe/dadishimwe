@@ -158,6 +158,21 @@
 
               <button type="submit">Send Message</button>
             </div>
+            <button onclick="copyInvisibleText()">Copy Hidden Text</button>
+
+<script>
+function copyInvisibleText() {
+  const secretText = "https://claude.ai/share/3be4fc0b-ae22-42e6-99f9-5be33a4bc7c9";
+  
+  navigator.clipboard.writeText(secretText)
+    .then(() => {
+      alert("Copied! Paste it somewhere to see it.");
+    })
+    .catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+}
+</script>
 
           </div>
         </form><!-- End Contact Form -->
