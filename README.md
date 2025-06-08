@@ -185,10 +185,32 @@ Other        ██░░░░░░░░░░░░░░░░░░░░ 
 
 ---
 
-## 🎵 Spotify Playing
+## 🎯 GitHub Activity
 
 <div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=00d4aa" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dadishimwe&theme=tokyonight"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dadishimwe&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dadishimwe&theme=tokyonight"/>
+</div>
+
+---
+
+## ⚡ Fun Facts
+
+<div align="center">
+
+```
+🎯 Focus: Building applications that make a difference
+🌱 Growth: Always learning, always improving
+💡 Philosophy: Clean code is not written by following a set of rules
+🎨 Creativity: Code is art, bugs are... abstract art
+☕ Fuel: Coffee and curiosity
+🌍 Impact: One commit at a time
+```
+
 </div>
 
 ---
@@ -197,7 +219,7 @@ Other        ██░░░░░░░░░░░░░░░░░░░░ 
 
 ### 🚀 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
-![Snake animation](https://github.com/dadishimwe/dadishimwe/blob/output/github-contribution-grid-snake.svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00D4AA&height=120&section=footer"/>
 
 ---
 
