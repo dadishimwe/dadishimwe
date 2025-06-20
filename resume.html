@@ -26,6 +26,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Resume Specific CSS -->
+  <link href="assets/css/resume-styles.css" rel="stylesheet">
 </head>
 
 <body class="resume-page">
@@ -42,10 +44,13 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#certifications">Certifications</a></li>
+          <li><a href="index.html#videos">Videos</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="resume.html" class="active">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -56,118 +61,311 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Resume</h1>
-              <p class="mb-0">Life is real! Life is earnest!
-                And the grave is not its goal;
-                Dust thou art, to dust returnest,
-                Was not spoken of the soul. Let us, then, be up and doing,
-                With a heart for any fate;
-                Still achieving, still pursuing,
-                Learn to labor and to wait.</p>
-            </div>
+    <div class="resume-header" data-aos="fade">
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-8">
+            <h1 class="resume-title">Professional Resume</h1>
+            <p class="resume-subtitle">Explore my professional journey, technical expertise, and achievements. A comprehensive overview of my experience in technology, leadership, and innovation.</p>
           </div>
         </div>
       </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Resume</li>
-          </ol>
-        </div>
-      </nav>
     </div><!-- End Page Title -->
 
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <div class="container">
+    <section id="resume" class="resume-section">
+      <div class="resume-container">
 
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Summary</h3>
+            <div class="resume-card">
+              <h3 class="resume-section-title">Summary</h3>
 
-            <div class="resume-item pb-0">
-              <h4>Dadi Ishimwe</h4>
-              <p><em>Dynamic and results-driven Tech Lead and Developer with a proven track record of delivering innovative solutions in the telecommunications sector. Currently pursuing advanced studies in Computer and Data Science through the MIT Emerging Talent Certificate Program. A Summa Cum Laude and Valedictorian graduate with a strong foundation in classical education, complemented by exceptional leadership, technical, and creative skills. Passionate about leveraging technology to solve complex problems and drive business growth.</em></p>
-              <ul>
-                <li>Kacyiru, Kigali RWANDA</li>
-                <li>(+250) 795 392 412</li>
-                <li>dadishimwe0@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+              <div class="resume-item">
+                <h4>Dadi Ishimwe</h4>
+                <p><em>Dynamic and results-driven Tech Lead and Developer with a proven track record of delivering innovative solutions in the telecommunications sector. Currently pursuing advanced studies in Computer and Data Science through the MIT Emerging Talent Certificate Program. A Summa Cum Laude and Valedictorian graduate with a strong foundation in classical education, complemented by exceptional leadership, technical, and creative skills. Passionate about leveraging technology to solve complex problems and drive business growth.</em></p>
+                <ul>
+                  <li><strong>Location:</strong> Kacyiru, Kigali RWANDA</li>
+                  <li><strong>Phone:</strong> (+250) 795 392 412</li>
+                  <li><strong>Email:</strong> dadishimwe0@gmail.com</li>
+                  <li><strong>Website:</strong> www.dadishimwe.com</li>
+                </ul>
+              </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Computer &amp; Data Science</h4>
-              <h5>2024 - Present</h5>
-              <p><em>Massachussetts Institute of Technology, Cambridge, MA</em></p>
-              <ul>
-                <li>Gaining cutting-edge knowledge in data science, machine learning, and computer science through one of the world’s leading institutions.</li>
-                <li>Developing advanced skills in programming, data analysis, and algorithmic problem-solving.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+              <h3 class="resume-section-title">Education</h3>
+              <div class="resume-item">
+                <h4>Computer &amp; Data Science</h4>
+                <h5>2024 - Present</h5>
+                <p><em>Massachusetts Institute of Technology, Cambridge, MA</em></p>
+                <ul>
+                  <li>Gaining cutting-edge knowledge in data science, machine learning, and computer science through one of the world's leading institutions</li>
+                  <li>Developing advanced skills in programming, data analysis, and algorithmic problem-solving</li>
+                </ul>
+              </div>
 
-            <div class="resume-item">
-              <h4>Classical &amp; STEM Student</h4>
-              <h5>2018 - 2024</h5>
-              <p><em>Rafiki International School, Rwanda</em></p>
-              <ul>
-                <li>Graduated as Summa Cum Laude and Valedictorian, achieving top honors in Mathematics, Physics, and Computer Science.</li>
-                <li>Demonstrated exceptional academic performance, earning an A grade in all core subjects.</li>
-                <li>Completed additional courses in Entrepreneurship and Economics, fostering a well-rounded understanding of business and technology.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
+              <div class="resume-item">
+                <h4>Classical &amp; STEM Student</h4>
+                <h5>2018 - 2024</h5>
+                <p><em>Rafiki International School, Rwanda</em></p>
+                <ul>
+                  <li>Graduated as Summa Cum Laude and Valedictorian, achieving top honors in Mathematics, Physics, and Computer Science</li>
+                  <li>Demonstrated exceptional academic performance, earning an A grade in all core subjects</li>
+                  <li>Completed additional courses in Entrepreneurship and Economics, fostering a well-rounded understanding of business and technology</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Tech Freelancer</h4>
-              <h5>2025 - Present</h5>
-              <p><em>Rwanda</em></p>
-              <ul>
-                <li>Provide technical expertise to clients across various industries, solving complex problems in networking, robotics, IoT, and software development.</li>
-                <li>Design and implement custom solutions for clients, including network setup, IoT device integration, and robotic automation systems.</li>
-                <li>Troubleshoot and resolve technical issues, ensuring optimal performance and client satisfaction.</li>
-                <li>Collaborate with clients to understand their needs and deliver tailored, innovative solutions.</li>
-              </ul>
+            <div class="resume-card">
+              <h3 class="resume-section-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Tech Freelancer</h4>
+                <h5>2025 - Present</h5>
+                <p><em>Rwanda</em></p>
+                <ul>
+                  <li>Provide technical expertise to clients across various industries, solving complex problems in networking, robotics, IoT, and software development</li>
+                  <li>Design and implement custom solutions for clients, including network setup, IoT device integration, and robotic automation systems</li>
+                  <li>Troubleshoot and resolve technical issues, ensuring optimal performance and client satisfaction</li>
+                  <li>Collaborate with clients to understand their needs and deliver tailored, innovative solutions</li>
+                  <li><strong>Achievement:</strong> Developed AI-powered chatbot that reduced customer service response time by 70%</li>
+                  <li><strong>Achievement:</strong> Implemented IoT sensors with AI analysis for predictive maintenance systems</li>
+                </ul>
+              </div>
+              
+              <div class="resume-item">
+                <h4>Tech Lead - Zuba Broadband</h4>
+                <h5>2024 - Present</h5>
+                <p><em>Kacyiru, 22 KG 548 St</em></p>
+                <ul>
+                  <li>Lead a technical team in the deployment, maintenance, and optimization of Starlink internet services for residential and commercial clients</li>
+                  <li>Develop and implement scalable solutions to enhance network performance and customer satisfaction</li>
+                  <li>Oversee the installation and configuration of internet systems, ensuring seamless connectivity and reliability</li>
+                  <li><strong>Achievement:</strong> Created automated deployment scripts that reduced installation time by 60%</li>
+                  <li><strong>Achievement:</strong> Implemented monitoring systems that improved network uptime to 99.8%</li>
+                  <li><strong>Achievement:</strong> Developed customer management tools that streamlined service delivery</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Artist and Entrepreneur</h4>
+                <h5>2024</h5>
+                <p><em>Nyamata, Bugesera, Rwanda</em></p>
+                <ul>
+                  <li>Organized a team of talented artists into a successful art business</li>
+                  <li>Managed multiple home design art projects and secured one major corporate contract</li>
+                  <li>Developed business processes and client management systems</li>
+                  <li>Applied project management and leadership skills in creative industry</li>
+                </ul>
+              </div>
             </div>
-            <div class="resume-item">
-              <h4>Tech Lead Zuba Broadband</h4>
-              <h5>2024 - Present</h5>
-              <p><em>Kacyiru, 22 KG 548 St </em></p>
-              <ul>
-                <li>Lead a technical team in the deployment, maintenance, and optimization of Starlink internet services for residential and commercial clients.</li>
-                <li>Develop and implement scalable solutions to enhance network performance and customer satisfaction.</li>
-                <li>Oversee the installation and configuration of internet systems, ensuring seamless connectivity and reliability.</li>
-                <li>Creating programs that maximize efficiency and automate workflows.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Artist and Entrepreneur</h4>
-              <h5>2024</h5>
-              <p><em>Nyamata, Bugesera, Rwanda</em></p>
-              <ul>
-                <li>Organised a team of talented artists into an art business.</li>
-                <li>Managed multiple home designed art project and one corporate contract.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
           </div>
 
         </div>
 
-      </div>
+        <!-- Technical Skills Section -->
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up">
+            <div class="resume-card">
+              <h3 class="resume-section-title">Technical Skills</h3>
+              
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h4>Programming Languages</h4>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>HTML/CSS</strong> - Advanced responsive design and modern CSS frameworks</span>
+                    <span class="skill-level">95%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>JavaScript</strong> - ES6+, async programming, DOM manipulation</span>
+                    <span class="skill-level">85%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Python</strong> - Data science, web development, automation</span>
+                    <span class="skill-level">90%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>C++</strong> - System programming and performance optimization</span>
+                    <span class="skill-level">80%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>TypeScript</strong> - Type-safe JavaScript development</span>
+                    <span class="skill-level">80%</span>
+                  </div>
+                </div>
 
+                <div class="skill-category">
+                  <h4>Frameworks & Technologies</h4>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>React/Node.js</strong> - Full-stack JavaScript development</span>
+                    <span class="skill-level">75%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Database Design</strong> - SQL, NoSQL, data modeling</span>
+                    <span class="skill-level">70%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Cloud Architecture</strong> - AWS, deployment, scaling</span>
+                    <span class="skill-level">70%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>AI/ML</strong> - Machine learning, NLP, data analysis</span>
+                    <span class="skill-level">65%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Mobile Development</strong> - React Native, cross-platform apps</span>
+                    <span class="skill-level">70%</span>
+                  </div>
+                </div>
+
+                <div class="skill-category">
+                  <h4>Soft Skills</h4>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Problem Solving</strong> - Analytical thinking and creative solutions</span>
+                    <span class="skill-level">95%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Leadership</strong> - Team management and project coordination</span>
+                    <span class="skill-level">90%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Piano Performance</strong> - Classical and contemporary music</span>
+                    <span class="skill-level">90%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Communication</strong> - Technical writing and presentation</span>
+                    <span class="skill-level">85%</span>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-name"><strong>Project Management</strong> - Agile methodologies and delivery</span>
+                    <span class="skill-level">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download Resume Section -->
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up">
+            <div class="resume-download">
+              <h3>Download Resume</h3>
+              <p>Get a PDF copy of my complete resume for your records.</p>
+              <a href="assets/files/Dadi_Ishimwe_Resume.pdf" class="btn-download" download>
+                <i class="bi bi-download"></i> Download PDF Resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects & Achievements Section -->
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up">
+            <div class="resume-card">
+              <h3 class="resume-section-title">Key Projects & Achievements</h3>
+              
+              <div class="projects-grid">
+                <div class="project-card">
+                  <h4>E-commerce Platform</h4>
+                  <h5>Full-Stack Development</h5>
+                  <ul>
+                    <li>Built complete e-commerce solution with React and Node.js</li>
+                    <li>Implemented user authentication, payment integration, and inventory management</li>
+                    <li>Achieved 99.9% uptime and handled 1000+ concurrent users</li>
+                    <li>Integrated with multiple payment gateways and shipping providers</li>
+                  </ul>
+                </div>
+
+                <div class="project-card">
+                  <h4>AI-Powered Chatbot</h4>
+                  <h5>Machine Learning & NLP</h5>
+                  <ul>
+                    <li>Developed intelligent chatbot using natural language processing</li>
+                    <li>Reduced customer service response time by 70%</li>
+                    <li>Implemented sentiment analysis and context awareness</li>
+                    <li>Trained on 10,000+ customer interactions for accuracy</li>
+                  </ul>
+                </div>
+
+                <div class="project-card">
+                  <h4>IoT Home Automation System</h4>
+                  <h5>Hardware & Software Integration</h5>
+                  <ul>
+                    <li>Designed smart home system with automated lighting and climate control</li>
+                    <li>Integrated multiple IoT devices with central control system</li>
+                    <li>Implemented predictive maintenance using AI analysis</li>
+                    <li>Achieved 30% energy savings for client installations</li>
+                  </ul>
+                </div>
+
+                <div class="project-card">
+                  <h4>Task Management Mobile App</h4>
+                  <h5>Cross-Platform Development</h5>
+                  <ul>
+                    <li>Built React Native app with real-time synchronization</li>
+                    <li>Implemented collaborative features and offline functionality</li>
+                    <li>Achieved 4.8/5 star rating with 5000+ downloads</li>
+                    <li>Integrated with popular productivity tools and calendars</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications & Learning -->
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up">
+            <div class="resume-card">
+              <h3 class="resume-section-title">Certifications & Continuous Learning</h3>
+              
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="resume-item">
+                    <h4>Currently Learning</h4>
+                    <ul>
+                      <li><strong>WebAssembly (WASM):</strong> High-performance web applications</li>
+                      <li><strong>Blockchain Development:</strong> Smart contracts and DApps</li>
+                      <li><strong>Machine Learning Engineering:</strong> MLOps and production ML</li>
+                      <li><strong>Advanced System Design:</strong> Scalable architecture patterns</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="resume-item">
+                    <h4>Areas of Expertise</h4>
+                    <ul>
+                      <li><strong>Full-stack Development:</strong> End-to-end application development</li>
+                      <li><strong>System Design:</strong> Scalable and maintainable architectures</li>
+                      <li><strong>Cloud Architecture:</strong> AWS, deployment, and scaling strategies</li>
+                      <li><strong>Best Coding Practices:</strong> Clean code, testing, and documentation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Philosophy -->
+        <div class="row mt-5">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <div class="resume-philosophy">
+              <h3>Personal Philosophy</h3>
+              <blockquote class="blockquote">
+                <p class="mb-0">"Living as if I were to die tomorrow. Learning as if I am to live forever. I'm passionate about creating innovative solutions through technology, combining engineering principles with creative problem-solving to build meaningful projects that make a difference."</p>
+              </blockquote>
+              <blockquote class="blockquote mt-4">
+                <p class="mb-0">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well."</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section><!-- /Resume Section -->
 
   </main>
@@ -175,21 +373,20 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">dadishimwe</h3>
-      <p>"In Him we have redemption through His blood, forgiveness of our trespasses, according to the riches of his grace..."</p>
+      <p>Passionate about creating innovative solutions through technology, combining engineering principles with creative problem-solving to build meaningful projects that make a difference.</p>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/DadiIshimw82353?t=yvwq1Iq1AIK-IUT7fi5GVg&s=09"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/share/1EF1uhvRmz/"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/dadishimwe?igsh=dWpnMHN1b2VxcW9n"><i class="bi bi-instagram"></i></a>
-        <a href="https://github.com/dadishimwe"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/dadi-ishimwe-473a50275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+        <a href="#" aria-label="Twitter/X Profile"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" aria-label="Facebook Profile"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
+        <a href="#" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+          <span>Copyright</span> <strong class="px-1 sitename">dadishimwe</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
-          <!-- Template from Bootstrap -->
-          Designed by <a href="">dadishimwe</a>
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
@@ -219,3 +416,10 @@
 </body>
 
 </html>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
