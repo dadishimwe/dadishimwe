@@ -3,7 +3,7 @@ title: FastAPI - The Future of High-Performance API Development? 🚀
 date: 2024-09-16 17:00 +0200
 categories: [English, Programming]
 tags: [programming, backend-development, tech-talk, python, flask, fastapi, django, machine-learning]
-author: amirulislam
+author: dadishimwe
 ---
 
 <img src="/assets/img/fastapi.png" alt="flask vs fastapi" width="400">

@@ -3,7 +3,7 @@ title: How I Optimized REST APIs by 40% Using Advanced Techniques
 date: 2024-09-26 17:00 +0200
 categories: [English, Programming]
 tags: [programming, backend-development, tech-talk, python, fastapi, rest-api, optimization, experience]
-author: amirulislam
+author: dadishimwe
 ---
 
 <img src="/assets/img/plane.jpg" alt="optimized rest-apis" width="600">

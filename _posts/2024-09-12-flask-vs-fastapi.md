@@ -3,7 +3,7 @@ title: Flask vs. FastAPI, Which Should You Choose?
 date: 2024-09-16 17:00 +0200
 categories: [English, Programming]
 tags: [programming, backend-development, tech-talk, python, flask, fastapi]
-author: amirulislam
+author: dadishimwe
 ---
 
 <img src="/assets/img/1726586223358.png" alt="flask vs fastapi" width="400">

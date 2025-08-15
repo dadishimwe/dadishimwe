@@ -3,7 +3,7 @@ title: "People say ChatGPT 5 can replace my job. So I tested it."
 date: 2025-08-11 17:00 +0200
 categories: [English, Programming, AI, Humor]
 tags: [ai, chatgpt, chatgpt-5, artificial-intelligence, database, sql, humor, dev-humor, coding-mistakes, production-bug]
-author: amirulislam
+author: dadishimwe
 ---
 
 People say ChatGPT 5 can replace my job.
