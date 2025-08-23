@@ -1,50 +1,70 @@
 ---
-layout: home
-# Index page
+layout: page
+title: Home
 ---
 
-{% include index_header.html %}
+<div class="welcome-section">
+  <h1>Welcome to Dadi Ishimwe's Blog</h1>
+  <p class="subtitle">Full Stack Developer & Digital Architect</p>
+  <p class="description">
+    Exploring networking, development, and mathematics through code and innovation.
+  </p>
+</div>
 
-<!-- Posts List -->
-{% for post in paginator.posts %}
-  <article class="post-preview">
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    <div class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">
-        {% assign date_format = site.data.locales[site.lang].date_format | default: '%B %-d, %Y' %}
-        {{ post.date | date: date_format }}
-      </time>
-    </div>
-    <div class="post-content">
-      {% if post.description %}
-        {{ post.description }}
-      {% else %}
-        {{ post.excerpt | strip_html | truncatewords: 50 }}
-      {% endif %}
-    </div>
-    <div class="post-tags">
-      {% for tag in post.tags %}
-        <a href="{{ 'tags/' | relative_url }}{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
-  </article>
-{% endfor %}
+<div class="posts-section">
+  <h2>Recent Posts</h2>
+  
+  <div class="post-item">
+    <h3><a href="/posts/2025-08-11-chatgpt5-replace-job-database/">ChatGPT-5: Will It Replace Jobs in Database Management?</a></h3>
+    <div class="post-meta">August 11, 2025</div>
+    <p>Exploring the potential impact of ChatGPT-5 on database management roles and the future of data professionals.</p>
+  </div>
 
-<!-- Pagination -->
-{% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">← Previous</a>
-    {% endif %}
-    
-    <span class="page-number">
-      Page {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-    
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next →</a>
-    {% endif %}
-  </nav>
-{% endif %}
+  <div class="post-item">
+    <h3><a href="/posts/2025-03-10-bash-scripting-automation/">Bash Scripting for Automation</a></h3>
+    <div class="post-meta">March 10, 2025</div>
+    <p>Mastering bash scripting techniques for automating repetitive tasks and improving workflow efficiency.</p>
+  </div>
+
+  <div class="post-item">
+    <h3><a href="/posts/2025-02-20-subnetting-bandwidth-control/">Subnetting and Bandwidth Control</a></h3>
+    <div class="post-meta">February 20, 2025</div>
+    <p>Understanding network subnetting strategies and implementing effective bandwidth control mechanisms.</p>
+  </div>
+
+  <div class="post-item">
+    <h3><a href="/posts/2025-01-15-regression-models-neural-networks/">Regression Models vs Neural Networks</a></h3>
+    <div class="post-meta">January 15, 2025</div>
+    <p>Comparing traditional regression models with neural networks for predictive analytics and machine learning applications.</p>
+  </div>
+
+  <div class="post-item">
+    <h3><a href="/posts/2024-10-20-linear-algebra-applications/">Linear Algebra Applications in Technology</a></h3>
+    <div class="post-meta">October 20, 2024</div>
+    <p>Real-world applications of linear algebra in computer graphics, machine learning, and data science.</p>
+  </div>
+</div>
+
+<div class="projects-section">
+  <h2>Featured Projects</h2>
+  
+  <div class="project-item">
+    <h3><a href="/projects/networking-projects/">Networking Projects</a></h3>
+    <p>Collection of networking projects and implementations.</p>
+  </div>
+
+  <div class="project-item">
+    <h3><a href="/projects/datacents-p2p-lending/">Datacents P2P Lending</a></h3>
+    <p>Peer-to-peer lending platform built with modern web technologies.</p>
+  </div>
+
+  <div class="project-item">
+    <h3><a href="/projects/inventory-sync/">Inventory Sync</a></h3>
+    <p>Real-time inventory synchronization system for e-commerce platforms.</p>
+  </div>
+
+  <div class="project-item">
+    <h3><a href="/projects/bash-web-server/">Bash Web Server</a></h3>
+    <p>Lightweight web server implementation using bash scripting.</p>
+  </div>
+</div>
