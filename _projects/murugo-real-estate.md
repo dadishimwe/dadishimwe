@@ -12,40 +12,29 @@ Murugo is a real estate platform designed to modernize the property market in Rw
 
 ## The Complete Journey
 
-### 1. [From Idea to MVP - Building Rwanda's First Comprehensive Real Estate Platform](/posts/from-idea-to-mvp/)
-**September 14, 2025**
+{% assign murugo_posts = site.posts | where: "tags", "murugo" | sort: "date" %}
 
+{% for post in murugo_posts %}
+### {{ forloop.index }}. [{{ post.title }}]({{ post.url }})
+**{{ post.date | date: "%B %d, %Y" }}**
+
+{% if post.title contains "From Idea to MVP" %}
 The story of how Murugo went from a simple idea to a Minimum Viable Product (MVP). Learn about the problem we set out to solve, why we chose Laravel, and the core features that made up our initial release.
-
-### 2. [The Database Dilemma - Why We Started with SQLite and When We Knew We Had to Change](/posts/the-database-dilemma/)
-**September 25, 2025**
-
+{% elsif post.title contains "Database Dilemma" %}
 Every developer faces the database choice dilemma. This post explores why we started with SQLite for rapid prototyping and the performance bottlenecks that forced us to migrate to PostgreSQL.
-
-### 3. [Property Management Hell - How We Solved the Array-to-String Conversion Nightmare](/posts/property-management-hell/)
-**October 2, 2025**
-
+{% elsif post.title contains "Property Management Hell" %}
 Managing thousands of properties requires a robust system. This post covers the challenges of building a scalable property management system and the solutions we implemented.
-
-### 4. [Image Upload Chaos - From Broken Forms to Seamless File Management](/posts/image-upload-chaos/)
-**October 5, 2025**
-
+{% elsif post.title contains "Image Upload Chaos" %}
 File uploads can make or break a real estate platform. Learn about the challenges of handling image uploads at scale and the solutions we implemented for storage, processing, and delivery.
-
-### 5. [Navigation Nightmare: How We Solved Desktop Clutter and Mobile Responsiveness](/posts/navigation-nightmare/)
-**October 12, 2025**
-
+{% elsif post.title contains "Navigation Nightmare" %}
 User experience is crucial for any platform. This post covers the challenges of building an intuitive navigation system and the user research that guided our design decisions.
-
-### 6. [Session Security for Financial Apps: Why Standard Security Wasn't Enough](/posts/session-security/)
-**October 13, 2025**
-
+{% elsif post.title contains "Session Security" %}
 When building a platform that will handle payments, standard security isn't enough. Learn about the multi-layered session security approach we implemented to protect our users.
-
-### 7. [The Docker Deployment Saga: From Local Development to Production](/posts/docker-deployment-saga/)
-**October 22, 2025**
-
+{% elsif post.title contains "Docker Deployment" %}
 The final chapter covers our journey from local development to production deployment using Docker. Learn about the challenges of containerization and the automated deployment process we created.
+{% endif %}
+
+{% endfor %}
 
 ## Key Technologies
 
