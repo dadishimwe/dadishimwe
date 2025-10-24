@@ -3,7 +3,6 @@ title: Murugo Real Estate - Complete Development Journey
 layout: project
 ---
 
-# Murugo Real Estate: Complete Development Journey
 
 A comprehensive technical deep-dive into building Rwanda's first real estate platform. This series documents the complete journey from initial concept to production deployment, covering every major challenge and decision along the way.
 
