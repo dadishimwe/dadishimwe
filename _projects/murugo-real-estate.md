@@ -12,7 +12,7 @@ Murugo is a real estate platform designed to modernize the property market in Rw
 
 ## The Complete Journey
 
-### 1. [From Idea to MVP - Building Rwanda's First Comprehensive Real Estate Platform](../posts/2025-09-14-from-idea-to-mvp/)
+### 1. [From Idea to MVP - Building Rwanda's First Comprehensive Real Estate Platform](/../posts/2025-09-14-from-idea-to-mvp/)
 **September 14, 2025**
 
 The story of how Murugo went from a simple idea to a Minimum Viable Product (MVP). Learn about the problem we set out to solve, why we chose Laravel, and the core features that made up our initial release.
