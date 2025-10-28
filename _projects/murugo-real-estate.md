@@ -10,6 +10,8 @@ A comprehensive technical deep-dive into building Rwanda's first real estate pla
 
 Murugo is a real estate platform designed to modernize the property market in Rwanda. Built with Laravel and deployed using Docker, the platform connects landlords, renters, and buyers in a seamless and efficient way.
 
+**This project was developed as part of the [MIT Emerging Talent Program](https://emergingtalent.mit.edu), demonstrating the intersection of academic excellence and real-world problem solving.**
+
 ## The Complete Journey
 
 {% assign murugo_posts = site.posts | where: "tags", "murugo" | sort: "date" %}
