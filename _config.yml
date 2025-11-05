@@ -19,11 +19,11 @@ title: Dadi Ishimwe # the main title
 tagline: Full Stack Developer & Digital Architect # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Exploring networking, development, and mathematics through code and innovation.
+  Full Stack Developer and Network Engineer specializing in web development, networking infrastructure, data science, and innovative technology solutions. Explore projects, tutorials, and insights on OpenWRT, Peplink, Starlink, Python, FastAPI, and more.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://dadishimwe.github.io"
+url: "https://www.dadishimwe.com"
 
 github:
   username: dadishimwe # change to your github username
