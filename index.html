@@ -15,35 +15,14 @@ description: Dadi Ishimwe - Full Stack Developer & Network Engineer. Explore tut
 <div class="posts-section">
   <h2>Recent Posts</h2>
   
+  {% assign recent_posts = site.posts | limit: 5 %}
+  {% for post in recent_posts %}
   <div class="post-item">
-    <h3><a href="/posts/2025-08-11-chatgpt5-replace-job-database/">ChatGPT-5: Will It Replace Jobs in Database Management?</a></h3>
-    <div class="post-meta">August 11, 2025</div>
-    <p>Exploring the potential impact of ChatGPT-5 on database management roles and the future of data professionals.</p>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+    <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
   </div>
-
-  <div class="post-item">
-    <h3><a href="/posts/2025-03-10-bash-scripting-automation/">Bash Scripting for Automation</a></h3>
-    <div class="post-meta">March 10, 2025</div>
-    <p>Mastering bash scripting techniques for automating repetitive tasks and improving workflow efficiency.</p>
-  </div>
-
-  <div class="post-item">
-    <h3><a href="/posts/2025-02-20-subnetting-bandwidth-control/">Subnetting and Bandwidth Control</a></h3>
-    <div class="post-meta">February 20, 2025</div>
-    <p>Understanding network subnetting strategies and implementing effective bandwidth control mechanisms.</p>
-  </div>
-
-  <div class="post-item">
-    <h3><a href="/posts/2025-01-15-regression-models-neural-networks/">Regression Models vs Neural Networks</a></h3>
-    <div class="post-meta">January 15, 2025</div>
-    <p>Comparing traditional regression models with neural networks for predictive analytics and machine learning applications.</p>
-  </div>
-
-  <div class="post-item">
-    <h3><a href="/posts/2024-10-20-linear-algebra-applications/">Linear Algebra Applications in Technology</a></h3>
-    <div class="post-meta">October 20, 2024</div>
-    <p>Real-world applications of linear algebra in computer graphics, machine learning, and data science.</p>
-  </div>
+  {% endfor %}
 </div>
 
 <div class="projects-section">
