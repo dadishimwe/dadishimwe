@@ -10,6 +10,12 @@ Welcome to my project showcase! Here you'll find a collection of my work spannin
 
 ## Project Categories
 
+### [Murugo Real Estate](/projects/murugo-real-estate/)
+A comprehensive technical deep-dive into building Rwanda's first real estate platform. From MVP development with Laravel to production deployment with Docker, covering database migrations, security hardening, and the complete journey from idea to production.
+
+### [API: Shall and Shall Nots... My Journey](/projects/api-shall-and-shall-nots/)
+A series documenting real-world lessons learned from building and maintaining API integrations. Covers pitfalls, best practices, and hard-won wisdom from working with enterprise APIs, data management, and building robust systems.
+
 ### [Data Science](https://www.dadishimwe.com/categories/data-science/)
 Exploring data to uncover insights and build predictive models. From machine learning algorithms to statistical analysis, these projects showcase the power of data-driven decision making.
 
