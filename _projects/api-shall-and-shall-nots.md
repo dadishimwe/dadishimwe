@@ -22,6 +22,8 @@ From duplicate data disasters to authentication nightmares, from rate limiting s
 
 {% if post.title contains "Data Was Doubling" %}
 A cautionary tale about API data management. Learn how a simple oversight led to duplicate data, and discover the technical solutions for building idempotent data archiving systems with proper deduplication strategies.
+{% elsif post.title contains "CLI Tool" or post.title contains "Hides Complexity" %}
+How to turn a complex enterprise API into a simple command-line tool that non-technical team members can use. Learn about hiding authentication complexity, processing API responses, creating user-friendly error messages, and building CLI tools that empower your entire team.
 {% elsif post.title contains "Authentication" %}
 Coming soon: The challenges of managing API authentication, token refresh, and security best practices.
 {% elsif post.title contains "Rate Limiting" %}
@@ -37,6 +39,7 @@ Coming soon: Building robust error handling for API integrations, from network f
 - **Data Management**: Preventing duplicates, ensuring idempotency, and maintaining data integrity
 - **Database Design**: Constraints, upsert patterns, and data validation strategies
 - **API Integration Patterns**: Best practices for consuming and archiving API data
+- **CLI Tools**: Building command-line interfaces that hide complexity and make APIs accessible to non-technical users
 - **Error Handling**: Building resilient systems that handle API failures gracefully
 - **Monitoring & Logging**: Visibility into what your system is doing and when things go wrong
 
